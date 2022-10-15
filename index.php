@@ -1,7 +1,5 @@
 <?php
 
-use SebastianBergmann\CodeCoverage\Report\PHP;
-
 $path = $argv[1];
 $currentStatus = [];
 readPath($path, $currentStatus);
